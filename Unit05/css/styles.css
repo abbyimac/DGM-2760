@@ -1,10 +1,26 @@
 
 /* reset padding, margin, and box-sizing */
 
-* {
+body, p, h1, h2, h3, h4, h5, h6 {
     padding: 0;
     margin: 0;
 }
+
+/* grid setup */
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.grid section.section2 {
+    background-color: #A1BF60;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 html {
     box-sizing: border-box;
@@ -30,7 +46,7 @@ header {
     max-width: 100%;
     height: 300px;
     margin: 0 auto;
-    background-image: url("../images/04-hero-copy.jpg");
+    background-image: url("../images/05-hero-copy.jpg");
     background-position: center;
     background-size: cover;
 }
@@ -61,12 +77,11 @@ main {
 
 main h1 {
     font-size: 2rem;
-    margin-bottom: 1.5rem;
 }
 
 main h2 {
-    color: #682552;
-    margin-top: 1rem;
+    color: #4D7314;
+    margin-top: 1.5rem;
 }
 
 main p {
@@ -80,16 +95,20 @@ main ul {
 }
 
 button {
+    display: block;
     margin-top: 10px;
-    width: 180px;
+    width: 303px;
     height: 40px;
-    padding: 10px 10px 35px 10px;
-    font-size: 1.3rem;
+    padding: 10px;
+    font-size: 1rem;
     border-radius: 8px;
     border: none;
     color: #fff;
-    background-color: #682552;
+    background-color: #4D7314;
+}
 
+button:hover {
+        background-color: #66991A;
 }
 
 
@@ -99,6 +118,6 @@ footer p {
     text-align: center;
     font-size: .8rem;
     color: #fff;
-    background-color: #000;
+    background-color:#000;
     padding: .5rem;
 }
