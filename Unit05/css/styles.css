@@ -91,6 +91,7 @@ main p {
 
 main ul {
     margin-top: .5rem;
+    padding-left: 40px;
 }
 
 button {
