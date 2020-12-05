@@ -15,7 +15,6 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 
 .grid section.section2 {
-    background-color: #A1BF60;
     margin: 0;
     padding: 0;
 }
@@ -109,6 +108,23 @@ button {
 
 button:hover {
         background-color: #66991A;
+}
+
+
+#displayResults {
+    background-color: #D1E3AA; 
+    padding: 10px 3% 10px 10px;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#displayResults span {
+    font-size: 1.2rem;
+    line-height: 4rem;
+}
+
+#error {
+    color: #D51B1B;
 }
 
 
