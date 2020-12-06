@@ -3,7 +3,7 @@
 body, h1, h2, h3, h4, h5, h6, ul, li {margin:0; padding: 0;}
 body {
 	font-size: 16px;
-	font-family: Helvetica;
+	font-family: Source Sans Pro;
 }
 header, nav, main, footer {
 	max-width: 960px;
@@ -111,7 +111,6 @@ main p {padding: .2rem 0 0 2%; line-height: 150%;}
 
 main ul {margin: 0;}
 main ul.objectives li {
-	list-style-image: url("../images/check.png");
 	margin-left: 3rem;
 
 }
