@@ -1,0 +1,30 @@
+{
+    "hotels": [
+        {
+            "name": "Marriott",
+            "rooms": "50",
+            "gym": "Yes",
+            "roomTypes": ["King", "Queen", "Double"],
+            "address": "258 Broad Street",
+            "picture": "images/room1.jpg"
+        },
+        {
+            "name": "Sheraton",
+            "rooms": "100",
+            "gym": "No",
+            "roomTypes": ["King", "Queen"],
+            "address": "840 Park Avenue",
+            "picture": "images/room2.jpg"
+
+        },
+        {  
+            "name": "Hilton",
+            "rooms": "45",
+            "gym": "Yes",
+            "roomTypes": ["King", "Queen", "Connecting"],
+            "address": "1200 Northside Drive",
+            "picture": "images/room3.jpg"
+        }
+
+    ]
+}
